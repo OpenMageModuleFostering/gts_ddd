@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ /**
+ *
+ * @category    Gts
+ * @package     Gts_Ddd
+ * @author      Gotechsolution.com (GTS)
+ * @link http://www.gotechsolution.com/ 
+ * @copyright   Copyright (c) 2012 (http://www.mgt-commerce.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ 
+ -->
+ 
+<config>
+    <modules>
+        <Gts_Ddd>
+            <version>0.1.0</version>
+        </Gts_Ddd>
+    </modules> 
+    
+    <admin>
+        <routers>
+            <ddd>
+                <use>admin</use>
+                <args>
+                    <module>Gts_Ddd</module>
+                    <frontName>ddd</frontName>
+                </args>
+            </ddd>
+        </routers>
+    </admin>  
+     
+    <global>     
+        <blocks>
+            <ddd>
+                <class>Gts_Ddd_Block</class>
+            </ddd>
+        </blocks>      
+        <helpers>
+            <ddd>
+                <class>Gts_Ddd_Helper</class>
+            </ddd>
+        </helpers>                     
+    </global>            
+
+</config>

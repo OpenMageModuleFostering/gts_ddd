@@ -1,0 +1,64 @@
+<config>
+    <tabs>
+        <gts>
+            <label>GTS</label>
+            <sort_order>210</sort_order>
+        </gts>
+    </tabs>
+    
+		  
+    <sections>
+        <gts_ddd module="contacts" translate="label">
+            <label>GTS Delete Dummy Data</label>
+            <tab>gts</tab>
+            <sort_order>120</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+         
+          
+            <groups>  
+                <gts_ddd_setting translate="label">
+                    <label>GTS Delete Dummy Data Setting</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>
+                        <![CDATA[
+                            <div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
+                            This Extension was developed by <b> <a href="http://www.gotechsolution.com" target="_blank">www.gotechsolution.com</a> </b>
+                            <br/>For more clarification refer to read<a href="http://www.gotechsolution.com/">Delete Dummy Data Doc</a>.
+                            <br/>For any query Email us: <b> gotechsolution1@gmail.com</b>
+                            </div>
+                            <div id="messages">
+                                <ul class="messages">
+                                    <li class="notice-msg">Please take a database backup first.
+                                    </li>
+                                </ul>
+                            </div> 
+
+                        ]]>
+                    </comment>
+                    
+                   
+                    <fields>
+                                               
+                        <chk_gts_ddd>
+                            <label>Select Checkboxes: </label>
+                            <frontend_type>Checkboxes</frontend_type>
+							
+                            <frontend_model>ddd/adminhtml_system_config_form_field_checkboxs</frontend_model>
+                            <sort_order>13</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>                             
+                        </chk_gts_ddd>
+                                         
+                    </fields>                    
+                </gts_ddd_setting>
+            </groups>
+                    
+        </gts_ddd>
+    </sections>
+</config>

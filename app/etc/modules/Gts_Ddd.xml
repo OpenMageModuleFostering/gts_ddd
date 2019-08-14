@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!--
+/**
+ *
+ * @NameSpace    Gts
+ * @package     Gts_Ddd (Delete Dummy Data)
+ * @author GTS
+  */
+-->
+
+<config>
+    <modules>
+        <Gts_Ddd>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gts_Ddd>
+    </modules>
+</config>

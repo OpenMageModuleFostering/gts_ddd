@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package>
+    <name>Gts_Ddd</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>GTS provide a way which is help full to develope magento projects. Using this extension we can enhance the project speed and sapce.&#xD;
+Features:-&#xD;
+&#xD;
+1) Clear Logs and Url Rewrite Tables&#xD;
+&#xD;
+2) Delete Dummy Product&#xD;
+&#xD;
+3) Delete Dummy Category&#xD;
+&#xD;
+4) Delete Dummy Cutomers&#xD;
+&#xD;
+5) Delete Dummy Orders&#xD;
+&#xD;
+6) Enhance Site Speed&#xD;
+&#xD;
+7) Remove garbage data </summary>
+    <description>Whenever we worked on developed projects , we have created lot of dummy data for testing purpose like Orders, Product, categories, customers, etc. And without remove dummy data we take a database backup and upload it on live server, for this cause magento take more space and slow the website.&#xD;
+&#xD;
+Using this Extension you can enhance your projects Like:-&#xD;
+&#xD;
+1) Clear Logs and Url Rewrite Tables&#xD;
+&#xD;
+2) Delete Dummy Product&#xD;
+&#xD;
+3) Delete Dummy Category&#xD;
+&#xD;
+4) Delete Dummy Cutomers&#xD;
+&#xD;
+5) Delete Dummy Orders&#xD;
+&#xD;
+6) Enhance Site Speed&#xD;
+&#xD;
+7) Remove garbage data &#xD;
+&#xD;
+8) All the things are done in single place&#xD;
+&#xD;
+9) Provide more Space&#xD;
+&#xD;
+10) Easy to use.&#xD;
+&#xD;
+If you have any query or Suggestion mail us gotechsolution1@gmail.com</description>
+    <notes>Version: 1.0.0&#xD;
+Release Stability: Stable&#xD;
+</notes>
+    <authors><author><name>Gotechsolution</name><user>gotechsolution</user><email>gotechsolution1@gmail.com</email></author></authors>
+    <date>2015-01-30</date>
+    <time>06:33:21</time>
+    <contents><target name="magelocal"><dir name="Gts"><dir name="Ddd"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="Checkboxs.php" hash="958e4e82cdde73e8c3d1ad8359362edb"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="1f2c44756e59d0e67b3ae9a9aad49723"/><file name="Data.php~" hash="22c9f6a246be5b7b39f5371c0beb69b1"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DeleteController.php" hash="a9b536d1d51c9431e2de75667fa06676"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="251ea9a2e798ac7cc19fe72bef5ad0d5"/><file name="config.xml" hash="0d077f7fe5ab1d94311c7c8c35882fbf"/><file name="system.xml" hash="cb733d6d2263f17427958441d35ea9ed"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gts_Ddd.xml" hash="1bf3c4985a2ab45355bca51cb8f112d1"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

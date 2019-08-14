@@ -1,0 +1,31 @@
+{
+    "name": "OpenMageModuleFostering/Gts_Ddd",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "GTS provide a way which is help full to develope magento projects. Using this extension we can enhance the project speed and sapce.
+Features:-
+
+1) Clear Logs and Url Rewrite Tables
+
+2) Delete Dummy Product
+
+3) Delete Dummy Category
+
+4) Delete Dummy Cutomers
+
+5) Delete Dummy Orders
+
+6) Enhance Site Speed
+
+7) Remove garbage data ",
+    "authors": [
+    {
+        "name": "Gotechsolution",
+        "email": "gotechsolution1@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

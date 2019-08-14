@@ -1,0 +1,21 @@
+<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <gts_ddd><!-- section name -->
+                                    <title>GTS Delete Dummy Data</title><!-- title or lable given -->
+                                    </gts_ddd>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
